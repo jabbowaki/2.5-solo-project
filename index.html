@@ -2,53 +2,54 @@
 <html lang ="en">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>DBZ: Goku vs Vegeta</title>
+	<link rel="stylesheet" type="text/css" href="dbzstyle.css">
 </head>
-<body style="padding:0;margin:0;background-color:black;">
-<div style="position:fixed;z-index:0;width:100%;">
+<body>
+<div class="nav-div">
 	<nav>
-		<ul style="list-style-type:none;margin:0;padding:0;overflow:hidden;background-color:#333;text-align:center;">
-		<li style="float:left;"><a style="display:block;color:white;text-align:center;text-decoration:none;padding:14px 16px;" href="index.html">Home</a></li>
-		<li style="float:left;"><a style="display:block;color:white;text-align:center;text-decoration:none;padding:14px 16px;" href="goku.html">Goku</a></li>
-		<li style="float:left;"><a style="display:block;color:white;text-align:center;text-decoration:none;padding:14px 16px;" href="vegeta.html">Vegeta</a></li>
+		<ul class="nav-ul">
+		<li class="nav-li"><a class="nav-a" href="index.html">Home</a></li>
+		<li class="nav-li"><a class="nav-a" href="goku.html">Goku</a></li>
+		<li class="nav-li"><a class="nav-a" href="vegeta.html">Vegeta</a></li>
 	</ul>
 	</nav>
 </div>
-<div style="position:static;z-index:-1;left:0;top:0;width:100%;height:100%">
+<div id="main-img">
 	<img src="3097176608_e6fb9bf868_o_Fotor.jpg" alt="Goku vs Vegeta" height="700px" width="100%">
 </div>
 
 <main>
-	<h1 style="text-align:center;color:red">The Ultimate Rivalry</h1>
+	<h1 id="rivalry">The Ultimate Rivalry</h1>
+	<div>
+<img src="2c7c33bd5426e70633613d6acdbc70fa.jpg" alt="Kamehameha vs Final Flash" height="700px" width="600px">
+</div>
 <div>
-<p style="display:block;float:right;margin:0px;padding:0px;color:white;">
-	From the moment they first met, Goku and Vegeta were destined to be the fiercest of rivals. Although they share the same Sayain heritage, they are opposites in almost every way. While the prideful sayain prince Vegeta relies mainly on emotion and rage to win his battles, Goku is much more humble and achieves victory through dedication and sheer will. Their primary motiviations for even fighting in the first place are also vastly different. While Vegeta fights for his own pride and is driven by his need to be the greatest warrior the sayain race has ever seen, Goku's main reason for taking part in almost any battle is to save the people he cares about. It is this difference in their fundamental approach to a fight that allows Goku to win his initial encounter with Vegeta, despite Vegeta being much more powerful than him. Even as they grow from bitter enemies to close friends throughout the show, their competitive nature and unrelenting desire to be the most powerful fighter in the universe push them both to new heights. Despite their differences each of them have qualities that make them a force to be reckoned with. 
+<p id="main-p">
+	From the moment they first met, Goku and Vegeta were destined to be the fiercest of rivals. Although they share the same Sayain heritage, they are opposites in almost every way. While the prideful Sayain prince Vegeta relies mainly on emotion and rage to win his battles, Goku is much more humble and achieves victory through dedication and sheer will. Their primary motivations for even fighting in the first place are also vastly different. While Vegeta fights for his own pride and is driven by his need to be the greatest warrior the Sayain race has ever seen, Goku's main reason for taking part in almost any battle is to save the people he cares about. It is this difference in their fundamental approach to a fight that allows Goku to win his initial encounter with Vegeta, despite Vegeta being much more powerful than him. Even as they grow from bitter enemies to close friends throughout the show, their competitive nature and unrelenting desire to be the most powerful fighter in the universe push them both to new heights. Despite their differences each of them have qualities that make them a force to be reckoned with. 
 </p>
 </div>
 <div>
-<img src="2c7c33bd5426e70633613d6acdbc70fa.jpg" alt="Kamehameha vs Final Flash" style="height:40%;width:40%;">
-</div>
-<div>
+<form action="index.html" method="post">
+<p>Who would you rather be!?</p>
+<p class="white-text">Goku</p>
+<input class="white-text" type="radio" name="character" value="Vegeta">
+<p class="white-text">Vegeta</p>
+<input class="white-text" type="radio" name="character" value="Goku">
 <br>
-<form action="index.html" method="post" style="border:3px solid white;">
-<p style="color:red;">Who would you rather be!?</p>
-<p style="color:white;">Goku</p>
-<input type="radio" name="character" value="Vegeta" style="color:white">
-<p style="color:white;">Vegeta</p>
-<input type="radio" name="character" value="Goku" style="color:white">
-<br>
-<p style="color:white;">What is your favorite Goku move?</p>
+<p class="white-text">What is your favorite Goku move?</p>
 <input type="text" name="gokumove">
 <br>
-<p style="color:white;">What is your favorite Vegeta move?</p>
+<p class="white-text">What is your favorite Vegeta move?</p>
 <input type="text" name="vegetamove">
 <br>
-<input type="submit" value="submit">
+<input type="submit" value="Submit">
 </form>
 </div>
 
 </main>
-<footer style="text-align:center;color:red;">
+<footer>
 <p>Created by Matthew Edwards</p>
 </footer>
 </body>
