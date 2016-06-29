@@ -1,6 +1,4 @@
-* {outline:0px solid gold;}
-
-body {margin:0;padding:0;background-color:black;color:red;}
+body {margin:0;padding:0;background-color:black;color:red;z-index:-1;}
 
 .nav-div {position:fixed;z-index:1;width:100%;}
 
@@ -14,13 +12,18 @@ body {margin:0;padding:0;background-color:black;color:red;}
 
 #rivalry {text-align:center;color:red;font-size:45px;}
 
-#main-p {font-family:helvetica;margin:0px;padding:0px;color:white;position:relative;height:2px;width:400px;left:800px;bottom:670px;font-size:20px;}
+#main-p {font-family:helvetica;margin:0px;padding:0px;color:lightgrey;position:relative;height:2px;width:400px;left:800px;bottom:670px;font-size:20px;}
 
 form {border:3px solid white;margin:10px;padding:10px;}
 
-.white-text {color:white;}
+label {color:white;}
 
 footer {text-align:center;color:red;}
 
 a:hover {background-color: black;}
+
+#tarka {color:red;}
+#tarka:link {color:red;}
+#tarka:visited {background-color:gold;}
+
 
