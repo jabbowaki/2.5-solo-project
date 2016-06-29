@@ -14,9 +14,18 @@ body {margin:0;padding:0;background-color:black;color:red;z-index:-1;}
 
 #main-p {font-family:helvetica;margin:0px;padding:0px;color:lightgrey;position:relative;height:2px;width:400px;left:800px;bottom:670px;font-size:20px;}
 
-form {border:3px solid white;margin:10px;padding:10px;}
+#a {height:700px;width:100%;}
+#b {height:700px;width:600px;}
+#c {height:70%;width:70%;}
+#d {height:70%;width:70%;}
 
-label {color:white;}
+form {border:3px solid white;margin:10px;padding:100px;background:url("Hp3KNqq.jpg") no-repeat center;background-size:100% 100%;}
+
+label {color:gold;font-size:30px;font-weight:bold;text-shadow:3px 3px black;}
+
+#who {color:gold;font-size:50px;font-weight:bold;text-align:center;text-shadow:3px 3px black;}
+
+#submit {height:100px;width:100px;}
 
 footer {text-align:center;color:red;}
 
@@ -24,6 +33,6 @@ a:hover {background-color: black;}
 
 #tarka {color:red;}
 #tarka:link {color:red;}
-#tarka:visited {background-color:gold;}
+#tarka:visited {color:gold;}
 
 
